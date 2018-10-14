@@ -6,11 +6,17 @@
 </head>
 <body>
 	<div class="content">
-		<video id="thevideo" width="480" height="360">
+		<video id="thevideo">
 			<source src="my_seal.mp4">
-			</video>
-			<button id="ppbutton" onclick="playPause(this,'thevideo')">Play</button>
-		</div>
-	</body>
+		</video>
+			<div id="controls">
+				<button id="ppbutton")">Play</button>
+				<input id="timebar" type="range" min="0" max="100" value="0" step="1">
+				<span id="curtime"></span>
+				<p>/</p>
+				<span id="videolength"></span>
+			</div>
+	</div>
 	<script type="text/javascript" src="jsstuff/vidplayercontrolls.js"></script>
-	</html>
+</body>
+</html>
